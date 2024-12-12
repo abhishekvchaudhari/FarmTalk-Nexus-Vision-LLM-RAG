@@ -21,7 +21,7 @@ os.environ["NVIDIA_API_KEY"] = os.getenv("NVIDIA_API_KEY")
 
 def upload_data():
     # load
-    loader = PyPDFDirectoryLoader("research_papers")
+    loader = PyPDFDirectoryLoader("local_database")
     documents = loader.load()
 
     # split using recursive --functionality of recursive is to split the documents semantically

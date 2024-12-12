@@ -22,7 +22,7 @@ load_dotenv()
 # Load API key
 os.environ["NVIDIA_API_KEY"] = os.getenv("NVIDIA_API_KEY")
 
-UPLOAD_DIR =  r"./research_papers"
+UPLOAD_DIR =  r"./local_database"
 
 # Ensure the UPLOAD_DIR directory exists
 if not os.path.exists(UPLOAD_DIR):
