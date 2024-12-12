@@ -1,0 +1,31 @@
+# plant_disease.yaml
+path: D:\\UMN\\MS Robotics\\Sem_3\\1. CSCI 5541 Natural Language Processing\\Project\\test_1\\farm_talk\\yolo_data
+train: D:\\UMN\\MS Robotics\\Sem_3\\1. CSCI 5541 Natural Language Processing\\Project\\test_1\\farm_talk\\yolo_data\\train
+val: D:\\UMN\\MS Robotics\\Sem_3\\1. CSCI 5541 Natural Language Processing\\Project\\test_1\\farm_talk\\yolo_data/val
+nc: 25
+names:
+  0: "Tomato__Healthy"
+  1: "Tomato__Bacterial_spot"
+  2: "Tomato__Early_blight"
+  3: "Tomato__Late_blight"
+  4: "Tomato__Leaf_Mold"
+  5: "Tomato__Septoria_leaf_spot"
+  6: "Tomato__Spider_mites Two-spotted_spider_mite"
+  7: "Tomato__Target_Spot"
+  8: "Tomato__Tomato_mosaic_virus"
+  9: "Tomato__Tomato_Yellow_Leaf_Curl_Virus"
+  10: "Apple___Apple_scab"
+  11: "Apple___Black_rot"
+  12: "Apple___Cedar_apple_rust"
+  13: "Apple___healthy"
+  14: "corn(maize)___Cercospora_leaf_spot Gray_leaf_spot"
+  15: "corn(maize)___Common_rust_"
+  16: "corn(maize)___healthy"
+  17: "corn(maize)___Northern_Leaf_Blight"
+  18: "Grape___Black_rot"
+  19: "Grape___Esca_(Black_Measles)"
+  20: "Grape___healthy"
+  21: "Grape___Leaf_blight_(Isariopsis_Leaf_Spot)"
+  22: "Potato___Early_blight"
+  23: "Potato___healthy"
+  24: "Potato___Late_blight"
