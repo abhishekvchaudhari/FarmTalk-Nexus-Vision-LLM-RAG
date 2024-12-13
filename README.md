@@ -40,9 +40,34 @@ $ conda activate farmtalk
 $ pip install -r requirements.txt
 ```
 
+## Pre Process Datset for YOLOv8
+Dowload the New Plant Diseases Dataset from [Kaggle](https://www.kaggle.com/datasets/vipoooool/new-plant-diseases-dataset/data)
+Create the following directory structure:
+
+dataset/
+│
+├── Images/
+│   ├── Train/
+│   └── Val/
+│
+└── labels/
+    ├── Train/
+    └── Val/
+
+Now to generate the annotations for the images, run the following command:
+```bash
+$ python yolo_create_annotation.py
+```
+
+Then, to move the respective images and correct their filename, run the following command:
+```bash
+$ python yolo_create_annotation.py
+```
+Note: You can change which classes are used to train by changing the class_mappings in yolo_create_annotation.py, allowed_classes in yolo_create_annotation.py and names in data.yaml.
+
 
 ## Train the YOLOv8 Model
-Ensure your data is organized correctly with separate folders for training and validation containing "images" and "labels." Update the data.yaml file accordingly. Run the following command to train the model:
+Ensure your data is organized correctly with separate folders for training and validation containing "images" and "labels." Update the data.yaml file accordingly to the correct paths. Run the following command to train the model:
 
 To train the model, run the following command:
 ```bash

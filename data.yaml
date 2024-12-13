@@ -1,7 +1,7 @@
 # plant_disease.yaml
-path: D:\\UMN\\MS Robotics\\Sem_3\\1. CSCI 5541 Natural Language Processing\\Project\\test_1\\farm_talk\\yolo_data
-train: D:\\UMN\\MS Robotics\\Sem_3\\1. CSCI 5541 Natural Language Processing\\Project\\test_1\\farm_talk\\yolo_data\\train
-val: D:\\UMN\\MS Robotics\\Sem_3\\1. CSCI 5541 Natural Language Processing\\Project\\test_1\\farm_talk\\yolo_data/val
+path: <INSERT_PATH_TO_YOUR dataset>
+train: <INSERT_PATH_TO_YOUR dataset/images/train>
+val: <INSERT_PATH_TO_YOUR dataset/images/val>
 nc: 25
 names:
   0: "Tomato__Healthy"
