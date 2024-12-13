@@ -162,6 +162,9 @@ This interface ensures a seamless and practical workflow for farmers, researcher
 - **Recall:** 99.4%
 - **mAP@[0.5]:** 99.4%
 
+![YOLO Graphs](./image/README/results.png)
+![YOLO Confusion Matrix](./image/README/confusion_matrix_normalized.png)
+
 ### Human Evaluation Metrics
 For the RAG Framework:
 - **Relevance:** 4.5
