@@ -1,29 +1,6 @@
 # Farm Talk: NEXUS
 A Real-Time Platform for Plant Disease Identification and Management
 
-## Table of Contents  
-1. [Introduction](#introduction)  
-2. [Overall Project Architecture](#overall-project-architecture)  
-3. [Setup Instructions](#setup-instructions)  
-    - [Clone Repository](#clone-repository)  
-    - [Open in VS Code](#open-in-vs-code)  
-    - [Create and Activate Virtual Environment](#create-and-activate-virtual-environment)  
-    - [Install Dependencies](#install-dependencies)  
-4. [YOLO: Computer Vision](#yolo-computer-vision)  
-    - [Train the YOLOv8 Model](#train-the-yolov8-model)  
-    - [Inference with Trained YOLOv8 Model (Optional)](#inference-with-trained-yolov8-model-optional)  
-5. [LLM using NVIDIA NIM](#llm-using-nvidia-nim)  
-    - [NVIDIA NIM APIs or Endpoints](#nvidia-nim-apis-or-endpoints)  
-    - [Run LLM Response](#run-llm-response)  
-6. [GPT-3.5 Turbo Setup](#gpt-35-turbo-setup)  
-    - [API Key Setup](#api-key-setup)  
-    - [Using GPT-3.5 Turbo in FarmTalk](#using-gpt-35-turbo-in-farmtalk)  
-7. [Experimental Setup](#experimental-setup)
-      
-8. [Results and Discussion](#results-and-discussion)  
-
----
-
 ## Introduction
 Farm Talk: NEXUS is an innovative platform that combines computer vision and large language models (LLMs) to detect plant diseases in real time and provide actionable remediation strategies. This project integrates YOLOv8 for plant disease detection and a Retrieval-Augmented Generation (RAG) framework leveraging NVIDIAEmbeddings and FAISS for semantic search and retrieval. The solution is accessible via a user-friendly Streamlit interface, supporting both image uploads and live camera feeds.
 
@@ -154,9 +131,9 @@ This interface ensures a seamless and practical workflow for farmers, researcher
 ## Results and Discussion
 
 ### YOLOv8 Metrics
-- **Precision:** 90%
-- **Recall:** 87.8%
-- **mAP@[0.5]:** 88%
+- **Precision:** 99.3%
+- **Recall:** 99.4%
+- **mAP@[0.5]:** 99.4%
 
 ### Human Evaluation Metrics
 For the RAG Framework:
