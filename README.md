@@ -43,7 +43,7 @@ The architecture of Farm Talk: NEXUS combines YOLOv8 for object detection and GP
 
 ### Clone Repository
 ```bash
-$ git clone https://github.com/<your-repo-name>/farmtalk-nexus.git
+$ git clone https://github.com/abhishekvchaudhari/FarmTalk-Nexus-Vision-LLM-RAG
 ```
 
 ## Open in VS code
@@ -147,6 +147,7 @@ The user interface (UI) serves as the bridge between the hardware setup and the 
 Below is an example of the **Farm Talk: NEXUS** UI, showcasing its accessibility and functionality.
 
 ![Streamlit UI Example](./image/README/ui.png)
+
 
 This interface ensures a seamless and practical workflow for farmers, researchers, and policymakers, making the tool suitable for real-world agricultural applications.
 
