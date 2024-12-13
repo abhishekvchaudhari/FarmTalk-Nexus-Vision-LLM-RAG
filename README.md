@@ -40,10 +40,11 @@ $ conda activate farmtalk
 $ pip install -r requirements.txt
 ```
 
-## Pre Process Datset for YOLOv8
+## Pre Process Dataset for YOLOv8
 Dowload the New Plant Diseases Dataset from [Kaggle](https://www.kaggle.com/datasets/vipoooool/new-plant-diseases-dataset/data)
 Create the following directory structure:
 
+```bash
 dataset/
 │
 ├── Images/
@@ -53,6 +54,7 @@ dataset/
 └── labels/
     ├── Train/
     └── Val/
+```
 
 Now to generate the annotations for the images, run the following command:
 ```bash
